@@ -1,0 +1,25 @@
+PRE-PARTITA
+
+Ogni giocatore partecipante, prima di iniziare la partita deve scegliere tre divinità con cui scendere in campo. Alcune (una per mitologia) sono contrassegnate, in alto, dalla scritta SPECIALE, che ne denota la rarità. Queste hanno statistiche di base più elevate rispetto a quelle NON SPECIALI ed ogni giocatore ne può scegliere al massimo una. E' consigliabile cercare di selezionare almeno due carte della stessa mitologia (segno in basso nella carta), in quanto alcune carte entrano in risonanza in base a questa caratteristica. 
+
+PESCARE E GIOCARE LE CARTE
+
+Ogni giocatore ha una mano di carte che può giocare per avere diversi effetti sui suoi personaggi o quelli avversari. Si può cliccare sulla carta in alto a destra, una volta per turno, per pescare una carta.
+Ogni giocatore può giocare fino a due carte per turno. Ogni carta ha una sua rarità, in base a quanto è rara avrà più o meno copie presenti all'inizio all'interno del mazzo (le meno rare ne hanno 3, poi 2 e 1). Ci sono diverse categorie di carte, ognuna delle quali si distingue per una macrocategoria di effetti differente dalle altre. Queste si dividono in:
+-carte cura, di colore verde, queste carte curano i tuoi personaggi;
+-carte equipaggiamento, di colore rosso, queste carte donano effetti di potenziamento ai tuoi personaggi. Ogni personaggio può avere equipaggiato fino a 3 carte equipaggiamento. Quando gliene viene rimossa una, nel caso questa potenziasse l'attacco, scompare anche l'effetto che questa aveva su di esso. Se si vuole equipaggiare una carta equipaggiamento ad un personaggio che ne ha già equipaggiate 3, quando si clicca su questo viene prima richiesto di rimuoverne una;
+-carte effetto, di colore beige, queste carte possono avere gli effetti più disparati, da rubare una carta equipaggiamento al nemico fino ad eliminare un personaggio;
+-carte terreno, di colore giallo, queste carte applicano un effetto sui tuoi personaggi in base alla mitologia di cui fanno parte;
+-carte imprevisto, di colore viola, queste carte sono le più peculiari in quanto causano effetti che possono essere sia negativi che positivi. Proprio per questo motivo, la loro attivazione non dipende dal giocatore, il loro effetto si attiva nel momento in cui vengono pescate (se non sono ancora già state giocate due carte) oppure, se il giocatore le ha nella mano iniziale, quando è il suo turno.
+ 
+ATTACCO E PASSAGGIO DEL TURNO
+
+Per attaccare si clicca su un personaggio e si seleziona l'avversario da attaccare. Il personaggio attaccato viene scelto in maniera in casuale. Il danno al personaggio attaccatto è dato dalla differenza tra l'attacco dell'attaccante ed i punti salute del difensore. Quando questi scendono a 0 o sotto, il personaggio viene eliminato. Dopo l'attacco il turno viene passato in automatico. Se per effetto di qualche carta non sia possibile attaccare durante il turno o per qualche motivo non si voglia attaccare, per andare avanti si deve cliccare sul pulsante per passare il turno.
+
+ELIMINAZIONI E FINE PARTITA
+
+Quando un utente non ha più personaggi, viene eliminato dalla partita. Quando rimane un solo giocatore, la partita finisce e questo diventa il vincitore, guadagnando punti in classifica (10 se è la partita di un torneo, 25 altrimenti)
+
+TORNEO
+
+Nella modalità torneo, si può giocare in 4 oppure 8 giocatori, che si affrontano in incontri 1vs1. Una volta che tutte le partite del turno sono state giocate, i vincitori si affrontano finchè non ne rimane solo uno. Vincere un torneo premia il giocatore con ben 50 punti.
