@@ -1,0 +1,49 @@
+.label {
+    -fx-font-size: 36px;
+    -fx-font-family: "Century Gothic", sans-serif;
+    -fx-opacity: 0.9; /* Opaco */
+}
+
+/* Stile per il testo */
+.testo {
+    -fx-font-size: 14px;
+    -fx-font-family: "Century Gothic";
+}
+
+/* Stile specifico per il backButton */
+#backButton {
+    -fx-background-color: #e74c3c;
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-pref-width: 105px;
+    -fx-pref-height:42px;
+}
+
+#backButton:hover {
+    -fx-background-color: #c0392b;
+}
+
+#backButton:pressed {
+    -fx-background-color: #96281b;
+}
+
+#riquadro {
+    -fx-background-color: rgba(255, 255, 255, 0.7); /* Bianco opaco */
+    -fx-padding: 10px; /* Padding per spaziatura interna */
+    -fx-opacity:0.8;
+}
+
+#sfondoRegole {
+	-fx-background-image: url('paesaggio3.jpg');
+	-fx-background-size: cover;
+}
+
+.TextArea {
+	-fx-text-fill: #1c4a6e;
+	-fx-background-color: #3498db;
+    -fx-border-color: #4682B4;
+    -fx-border-width: 2px; 
+    -fx-border-radius: 4px;
+    -fx-background-radius: 4px;
+    -fx-opacity:0.8;
+}

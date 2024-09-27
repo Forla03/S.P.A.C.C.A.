@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button layoutX="72.0" layoutY="188.0" mnemonicParsing="false" onAction="#bottoneAggiungiGioc1" prefHeight="25.0" prefWidth="28.0" />
+      <Text fx:id="giocatore2" layoutX="459.0" layoutY="144.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Giocatore 2" />
+      <Button layoutX="476.0" layoutY="188.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="28.0" />
+      <Text fx:id="giocatore1" layoutX="56.0" layoutY="143.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Giocatore 1" />
+      <PasswordField fx:id="password1" layoutX="12.0" layoutY="296.0" visible="false" />
+      <PasswordField fx:id="password2" layoutX="416.0" layoutY="296.0" visible="false" />
+      <PasswordField fx:id="confermaPass1" layoutX="12.0" layoutY="346.0" visible="false" />
+      <PasswordField fx:id="confermaPass2" layoutX="416.0" layoutY="346.0" visible="false" />
+      <Button fx:id="bottoneCreaPassword" layoutX="193.0" layoutY="284.0" mnemonicParsing="false" onAction="#bottoneConfermaPassword1" text="Button" />
+      <Text fx:id="textConfermaPass1" layoutX="172.0" layoutY="325.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="170.5" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,94 @@
+/* Stile specifico per il backButton */
+#backButton {
+    -fx-background-color: #e74c3c;
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-pref-width: 105px;
+    -fx-pref-height:42px;
+}
+
+#backButton:hover {
+    -fx-background-color: #c0392b;
+}
+
+#backButton:pressed {
+    -fx-background-color: #96281b;
+}
+
+/* Stile per le etichette generiche */
+.label {
+    -fx-font-size: 26px;
+    -fx-font-family: "Century Gothic", sans-serif;
+    /*-fx-font-weight: bold;*/
+}
+
+/* Stile generico per i bottoni */
+.button {
+    -fx-padding: 10px 20px;
+    -fx-background-color: #3498db;
+    -fx-text-fill: white;
+    -fx-border-color: transparent;
+    -fx-border-radius: 5px;
+    -fx-opacity:0.9;
+}
+
+.button:hover {
+    -fx-background-color: #4682B4;
+    -fx-opacity:0.9;
+}
+
+.button:pressed {
+    -fx-background-color: #1c4a6e;
+    -fx-opacity:0.9;
+}
+
+#bottoneCreaPartita {
+    -fx-padding: 10px 20px;
+    -fx-background-color: #1c4a6e;
+    -fx-text-fill: white;
+    -fx-border-color: transparent;
+    -fx-border-radius: 5px;
+}
+
+#bottoneCreaPartita:hover {
+    -fx-background-color: #4682B4;
+}
+
+#bottoneCreaPartita:pressed {
+    -fx-background-color: #1c4a6e;
+}
+
+#hboxTipoCarta {
+    -fx-background-color: rgba(255, 255, 255, 0.7); /* Bianco opaco */
+    -fx-padding: 10px; /* Padding per spaziatura interna */
+    -fx-opacity:0.8;
+}
+
+#riquadro {
+    -fx-background-color: rgba(255, 255, 255, 0.7); /* Bianco opaco */
+    -fx-padding: 10px; /* Padding per spaziatura interna */
+    -fx-opacity:0.8;
+}
+
+#testo {
+    -fx-font-size: 12px;
+    -fx-font-family: "Century Gothic", sans-serif;
+    -fx-font-weight: bold;
+}
+
+#nome {
+    -fx-font-size: 12px;
+    -fx-font-family: "Century Gothic", sans-serif;
+    -fx-font-weight: bold;
+}
+
+#mitologia {
+    -fx-font-size: 12px;
+    -fx-font-family: "Century Gothic", sans-serif;
+    -fx-font-weight: bold;
+}
+
+#sfondoAggRimCarte {
+	-fx-background-image: url('paesaggio3.jpg');
+	-fx-background-size: cover;
+}

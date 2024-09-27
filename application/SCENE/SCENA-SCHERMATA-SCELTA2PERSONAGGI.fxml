@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<StackPane fx:id="sfondoSceltaPersonaggi" prefHeight="600.0" prefWidth="900.0" stylesheets="@../CSSStyleSheets/Stile-Scena-Scelta2Personaggi.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.CONTROLLER.ControllerScenaSceltaPersonaggi2Giocatori">
+   <children>
+   <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0">
+         <children>
+         <Button fx:id="backButton" layoutX="12.0" layoutY="14.0" mnemonicParsing="false" onAction="#goBack" prefHeight="48.0" text="Indietro" AnchorPane.bottomAnchor="535.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="775.0" AnchorPane.topAnchor="20.0">
+               <font>
+                  <Font name="Century Gothic" size="12.0" />
+               </font>
+            </Button>
+            <Pane fx:id="contenitore1" layoutX="36.0" layoutY="167.0" prefHeight="290.0" prefWidth="178.0" AnchorPane.bottomAnchor="143.0" AnchorPane.leftAnchor="50.0" AnchorPane.topAnchor="167">
+               <children>
+                  <Text fx:id="textgiocatore1" layoutY="23.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Giocatore 1" textAlignment="CENTER" wrappingWidth="178.39999999999998" />
+                  <Button fx:id="bottoneAddGioc1" layoutX="68.0" layoutY="53.0" mnemonicParsing="false" onAction="#bottoneAggiungiGioc1" prefHeight="25.0" prefWidth="28.0" />
+                  <PasswordField fx:id="password1" layoutX="11.0" layoutY="165.0" prefHeight="26.0" prefWidth="156.0" promptText="password" visible="false" />
+                  <PasswordField fx:id="confermaPass1" alignment="CENTER" layoutX="11.0" layoutY="215.0" prefHeight="26.0" prefWidth="156.0" promptText="ripeti password" visible="false" />
+                  <Button fx:id="bottoneLogin1" alignment="CENTER" layoutX="37.0" layoutY="220.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="105.0" text="Login" textAlignment="CENTER" visible="false">
+                     <font>
+                        <Font name="Century Gothic" size="12.0" />
+                     </font>
+                     <padding>
+                        <Insets left="40.0" />
+                     </padding>
+                  </Button>
+                  <Button fx:id="bottoneCreaPassword1" alignment="CENTER" layoutX="38.0" layoutY="111.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="105.0" text="Registrati" textAlignment="CENTER" visible="false" />
+                  <TextField fx:id="pronto1" alignment="CENTER" editable="false" layoutX="15.0" layoutY="48.0" prefHeight="54.0" prefWidth="142.0" text="PRONTO!" visible="false">
+                     <font>
+                        <Font name="Century Gothic" size="21.0" />
+                     </font>
+                  </TextField>
+                  <Text fx:id="textConfermaPass1" layoutX="-4.0" layoutY="130.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="186.39999389648426">
+                     <font>
+                        <Font name="Century Gothic Bold" size="14.0" />
+                     </font>
+                  </Text>
+               </children>
+            </Pane>
+            <Pane fx:id="contenitore2" layoutX="260.0" layoutY="167.0" prefHeight="290.0" prefWidth="178.0" AnchorPane.bottomAnchor="143.0" AnchorPane.leftAnchor="260.0" AnchorPane.rightAnchor="462.0" AnchorPane.topAnchor="167.0">
+               <children>
+                  <Text fx:id="textgiocatore2" layoutY="23.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Giocatore 2" textAlignment="CENTER" wrappingWidth="178.0" />
+                  <Button fx:id="bottoneAddGioc2" layoutX="68.0" layoutY="53.0" mnemonicParsing="false" onAction="#bottoneAggiungiGioc2" prefHeight="25.0" prefWidth="28.0" />
+                  <PasswordField fx:id="password2" layoutX="11.0" layoutY="165.0" prefHeight="26.0" prefWidth="156.0" promptText="password" visible="false" />
+                  <PasswordField fx:id="confermaPass2" layoutX="11.0" layoutY="215.0" prefHeight="26.0" prefWidth="162.0" promptText="ripeti password" visible="false" />
+                  <Button fx:id="bottoneLogin2" layoutX="37.0" layoutY="220.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="105.0" text="Login" visible="false">
+                     <font>
+                        <Font name="Century Gothic" size="12.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="bottoneCreaPassword2" layoutX="38.0" layoutY="111.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="105.0" text="Registrati" visible="false" />
+                  <TextField fx:id="pronto2" alignment="CENTER" editable="false" layoutX="15.0" layoutY="48.0" prefHeight="54.0" prefWidth="142.0" text="PRONTO!" visible="false">
+                     <font>
+                        <Font name="Century Gothic" size="21.0" />
+                     </font>
+                  </TextField>
+                  <Text fx:id="textConfermaPass2" layoutX="-4.0" layoutY="130.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="186.39999389648426">
+                     <font>
+                        <Font name="Century Gothic" size="14.0" />
+                     </font>
+                  </Text>
+               </children>
+            </Pane>
+            <Pane fx:id="contenitore4" layoutX="663.0" layoutY="167.0" prefHeight="290.0" prefWidth="178.0" AnchorPane.bottomAnchor="143.0" AnchorPane.rightAnchor="50.0" AnchorPane.topAnchor="167.0">
+               <children>
+                  <Text fx:id="textgiocatore4" layoutY="23.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Giocatore 4" textAlignment="CENTER" visible="false" wrappingWidth="178.39999999999986" />
+                  <Button fx:id="bottoneAddGioc4" layoutX="68.0" layoutY="53.0" mnemonicParsing="false" onAction="#bottoneAggiungiGioc4" prefHeight="25.0" prefWidth="28.0" visible="false" />
+                  <PasswordField fx:id="password4" layoutX="11.0" layoutY="165.0" prefHeight="26.0" prefWidth="162.0" promptText="password" visible="false" />
+                  <PasswordField fx:id="confermaPass4" layoutX="11.0" layoutY="215.0" prefHeight="26.0" prefWidth="162.0" promptText="ripeti password" visible="false" />
+                  <Button fx:id="bottoneLogin4" layoutX="37.0" layoutY="220.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="105.0" text="Login" visible="false">
+                     <font>
+                        <Font name="Century Gothic" size="12.0" />
+                     </font>
+                  </Button>
+                  <TextField fx:id="pronto4" alignment="CENTER" editable="false" layoutX="15.0" layoutY="48.0" prefHeight="54.0" prefWidth="142.0" text="PRONTO!" visible="false">
+                     <font>
+                        <Font name="Century Gothic" size="21.0" />
+                     </font>
+                  </TextField>
+                  <Text fx:id="textConfermaPass4" layoutX="-4.0" layoutY="130.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="186.39999389648426">
+                     <font>
+                        <Font name="Century Gothic" size="14.0" />
+                     </font>
+                  </Text>
+               </children>
+            </Pane>
+            <Button fx:id="bottoneAvanzamento" layoutX="386.0" layoutY="383.0" mnemonicParsing="false" onAction="#goNext" prefHeight="60.0" prefWidth="176.0" text="Gioca" visible="false" AnchorPane.leftAnchor="362.0" AnchorPane.rightAnchor="362.0">
+               <font>
+                 <Font name="Century Gothic" size="24.0" />
+               </font>
+            </Button>
+            <Pane fx:id="contenitore3" layoutX="468.0" layoutY="167.0" AnchorPane.bottomAnchor="143.0" AnchorPane.leftAnchor="468.0" AnchorPane.rightAnchor="260.0" AnchorPane.topAnchor="167.0">
+               <children>
+                  <Text fx:id="textgiocatore3" layoutY="23.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Giocatore 3" textAlignment="CENTER" visible="false" wrappingWidth="178.39999999999998" />
+                  <Button fx:id="bottoneAddGioc3" layoutX="68.0" layoutY="53.0" mnemonicParsing="false" onAction="#bottoneAggiungiGioc3" prefHeight="25.0" prefWidth="28.0" visible="false" />
+                  <PasswordField fx:id="password3" layoutX="11.0" layoutY="165.0" prefHeight="26.0" prefWidth="156.0" promptText="password" visible="false" />
+                  <PasswordField fx:id="confermaPass3" layoutX="11.0" layoutY="215.0" prefHeight="26.0" prefWidth="156.0" promptText="ripeti password" visible="false" />
+                  <Button fx:id="bottoneLogin3" layoutX="37.0" layoutY="220.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="105.0" text="Login" visible="false">
+                     <font>
+                        <Font name="Century Gothic" size="12.0" />
+                     </font>
+                     <graphic>
+                        <Button fx:id="bottoneCreaPassword4" mnemonicParsing="false" prefHeight="38.0" prefWidth="105.0" text="Registrati" visible="false" />
+                     </graphic>
+                  </Button>
+                  <Button layoutX="38.0" layoutY="111.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="105.0" text="Registrati" visible="false" />
+                  <TextField fx:id="pronto3" alignment="CENTER" editable="false" layoutX="15.0" layoutY="48.0" prefHeight="54.0" prefWidth="142.0" text="PRONTO!" visible="false">
+                     <font>
+                        <Font name="Century Gothic" size="21.0" />
+                     </font>
+                  </TextField>
+                  <Text fx:id="textConfermaPass3" layoutX="-4.0" layoutY="130.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="186.39999389648415">
+                     <font>
+                        <Font name="Century Gothic" size="14.0" />
+                     </font>
+                  </Text>
+               </children>
+            </Pane>
+            <HBox fx:id="riquadro" layoutX="338.0" layoutY="20.0" prefHeight="75.0" prefWidth="224.0">
+               <children>
+                  <Label alignment="CENTER" prefHeight="58.0" prefWidth="262.0" text="Login" textAlignment="CENTER" />
+               </children>
+            </HBox>
+         </children>
+         </AnchorPane>
+   </children>
+   </StackPane>

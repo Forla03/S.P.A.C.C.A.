@@ -1,0 +1,110 @@
+.label {
+    -fx-font-size: 14px;
+    -fx-font-family: "Century Gothic", sans-serif;
+    -fx-font-weight: bold;
+}
+
+#labelVittoria {
+	-fx-font-size: 32px;
+    -fx-font-family: "Century Gothic", sans-serif;
+    -fx-font-weight: bold;
+}
+
+#labelTurni {
+	-fx-font-size: 32px;
+    -fx-font-family: "Century Gothic", sans-serif;
+    -fx-font-weight: bold;
+}
+
+#riquadro {
+    -fx-background-color: rgba(255, 255, 255, 0.7); /* Bianco opaco */
+    -fx-padding: 10px; /* Padding per spaziatura interna */
+    -fx-opacity:0.8;
+}
+
+/* Stile generico per i bottoni */
+.button {
+    -fx-padding: 10px 20px;
+    -fx-background-color: #3498db;
+    -fx-text-fill: white;
+    -fx-border-color: transparent;
+    -fx-border-radius: 5px;
+    -fx-opacity:0.9;
+}
+
+#quitButton {
+    -fx-padding: 10px 20px;
+    -fx-background-color: #3498db;
+    -fx-text-fill: white;
+    -fx-border-color: transparent;
+    -fx-border-radius: 0; /* Rendi il bordo non arrotondato */
+    -fx-opacity: 0.9;
+    -fx-cursor: hand; /* Cambia il cursore quando passi sopra il bottone */
+}
+
+#quitButton:hover {
+    -fx-background-color: red; /* Cambia il colore di sfondo al passaggio del mouse */
+}
+
+.button:hover {
+    -fx-background-color: #4682B4;
+    -fx-opacity:0.9;
+}
+
+.button:pressed {
+    -fx-background-color: #1c4a6e;
+    -fx-opacity:0.9;
+}
+
+#comunicazioneEffetto {
+	-fx-font-size: 14px;
+    -fx-font-family: "Century Gothic", sans-serif;
+    -fx-font-weight: bold;
+}
+
+#root {
+	-fx-background-image: url('sfondopartita3.jpg'); 
+	-fx-background-size: cover;
+}
+
+#bottoneSalvataggio {
+    -fx-background-color: #1c4a6e;
+    -fx-opacity:0.9;
+    -fx-padding: 10px 20px;
+    -fx-text-fill: white;
+    -fx-border-color: transparent;
+    -fx-border-radius: 5px;
+}
+
+#bottoneSalvataggio2 {
+    -fx-background-color: #1c4a6e;
+    -fx-opacity:0.9;
+    -fx-padding: 10px 20px;
+    -fx-text-fill: white;
+    -fx-border-color: transparent;
+    -fx-border-radius: 5px;
+}
+
+#buttonVisRistretta {
+    -fx-background-color: #1c4a6e;
+    -fx-opacity:0.9;
+    -fx-padding: 10px 20px;
+    -fx-text-fill: white;
+    -fx-border-color: transparent;
+    -fx-border-radius: 5px;
+}
+
+.buttonVisRistretta:hover {
+    -fx-background-color: #4682B4;
+    -fx-opacity:0.9;
+}
+
+.buttonVisRistretta:pressed {
+    -fx-background-color: #3498db;
+    -fx-opacity:0.9;
+}
+
+#vboxTimeline {
+	-fx-border-color: #1c4a6e;
+	-fx-border-width: 4px;
+}

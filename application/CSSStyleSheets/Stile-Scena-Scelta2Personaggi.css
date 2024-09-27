@@ -1,0 +1,123 @@
+/* Stile specifico per il backButton */
+#backButton {
+    -fx-background-color: #e74c3c;
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-pref-width: 105px;
+    -fx-pref-height:42px;
+}
+
+#backButton:hover {
+    -fx-background-color: #c0392b;
+}
+
+#backButton:pressed {
+    -fx-background-color: #96281b;
+}
+
+.label {
+    -fx-font-size: 36px;
+    -fx-font-family: "Century Gothic", sans-serif;
+    -fx-opacity: 0.9;
+}
+
+/* Stile generico per i bottoni */
+.button {
+    -fx-padding: 10px 20px;
+    -fx-background-color: #3498db;
+    -fx-text-fill: white;
+    -fx-border-color: transparent;
+    -fx-border-radius: 5px;
+    -fx-opacity:0.9;
+}
+
+.button:hover {
+    -fx-background-color: #4682B4;
+    -fx-opacity:0.9;
+}
+
+.button:pressed {
+    -fx-background-color: #1c4a6e;
+    -fx-opacity:0.9;
+}
+
+#bottoneAvanzamento {
+    -fx-padding: 10px 20px;
+    -fx-background-color: #1c4a6e;
+    -fx-text-fill: white;
+    -fx-border-color: transparent;
+    -fx-border-radius: 5px;
+}
+
+#bottoneAvanzamento:hover {
+    -fx-background-color: #4682B4;
+}
+
+#bottoneAvanzamento:pressed {
+    -fx-background-color: #1c4a6e;
+}
+
+#hboxTipoCarta {
+    -fx-background-color: rgba(255, 255, 255, 0.7); /* Bianco opaco */
+    -fx-padding: 10px; /* Padding per spaziatura interna */
+    -fx-opacity:0.8;
+}
+
+#riquadro {
+    -fx-background-color: rgba(255, 255, 255, 0.7); /* Bianco opaco */
+    -fx-padding: 10px; /* Padding per spaziatura interna */
+    -fx-opacity:0.8;
+}
+
+#textgiocatore1 {
+    -fx-font-size: 24px;
+    -fx-font-family: "Century Gothic", sans-serif;
+    -fx-font-weight: bold;
+}
+
+#textgiocatore2 {
+    -fx-font-size: 24px;
+    -fx-font-family: "Century Gothic", sans-serif;
+    -fx-font-weight: bold;
+}
+
+#textgiocatore3 {
+    -fx-font-size: 24px;
+    -fx-font-family: "Century Gothic", sans-serif;
+    -fx-font-weight: bold;
+}
+
+#textgiocatore4 {
+    -fx-font-size: 24px;
+    -fx-font-family: "Century Gothic", sans-serif;
+    -fx-font-weight: bold;
+}
+
+#textConfermaPass1 {
+	-fx-font-size: 14px;
+    -fx-font-family: "Century Gothic", sans-serif;
+    -fx-font-weight: bold;
+}
+
+#textConfermaPass2 {
+	-fx-font-size: 14px;
+    -fx-font-family: "Century Gothic", sans-serif;
+    -fx-font-weight: bold;
+}
+
+#textConfermaPass3 {
+	-fx-font-size: 14px;
+    -fx-font-family: "Century Gothic", sans-serif;
+    -fx-font-weight: bold;
+}
+
+#textConfermaPass4 {
+	-fx-font-size: 14px;
+    -fx-font-family: "Century Gothic", sans-serif;
+    -fx-font-weight: bold;
+}
+
+#sfondoSceltaPersonaggi {
+	-fx-background-image: url('paesaggio3.jpg');
+	-fx-background-size: cover;
+}

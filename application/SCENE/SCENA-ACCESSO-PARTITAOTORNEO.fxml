@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="sfondoScelta" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" stylesheets="@../CSSStyleSheets/Stile-Scena-PartitaOTorneo.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.CONTROLLER.ControllerAccessoPartitaOTorneo">
+   <children>
+      <Button layoutX="120.0" layoutY="268.0" mnemonicParsing="false" onAction="#accessoPartita" prefHeight="64.0" prefWidth="174.0" text="PARTITA">
+         <font>
+            <Font size="26.0" />
+         </font></Button>
+      <Button layoutX="624.0" layoutY="268.0" mnemonicParsing="false" onAction="#accessoTorneo" prefHeight="64.0" prefWidth="174.0" text="TORNEO">
+         <font>
+            <Font size="26.0" />
+         </font></Button>
+      <Button fx:id="backButton" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#goBack" prefHeight="42.0" prefWidth="105.0" text="Indietro" AnchorPane.bottomAnchor="535.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="775.0" AnchorPane.topAnchor="20.0" />
+   </children>
+</AnchorPane>

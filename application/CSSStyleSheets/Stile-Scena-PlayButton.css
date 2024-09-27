@@ -1,0 +1,65 @@
+/* Stile specifico per il backButton */
+#backButton {
+    -fx-background-color: #e74c3c;
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-pref-width: 105px;
+    -fx-pref-height:4px;
+}
+
+#backButton:hover {
+    -fx-background-color: #c0392b;
+}
+
+#backButton:pressed {
+    -fx-background-color: #96281b;
+}
+
+/* Stile per le etichette generiche */
+.label {
+    -fx-font-size: 36px;
+    -fx-font-family: "Century Gothic", sans-serif;
+    -fx-opacity: 0.9;
+}
+
+/* Stile specifico per le etichette con l'ID "testo" */
+#errorLogin {
+    -fx-font-size: 20px;
+    -fx-font-family: "Century Gothic", sans-serif;
+    -fx-opacity: 0.7; /* Opaco */
+}
+
+/* Stile per il HBox */
+#hbox {
+    -fx-background-color: rgba(255, 255, 255, 0.7); /* Bianco opaco */
+    -fx-padding: 10px; /* Padding per spaziatura interna */
+    -fx-opacity:0.8;
+}
+
+#giocaButton {
+    -fx-padding: 5px 10px;
+    -fx-background-color: #1c4a6e;
+    -fx-text-fill: white;
+    /*-fx-border-color: rgba(255, 255, 255, 0.8);
+    -fx-background-radius: 13px;
+    -fx-border-radius: 14px;
+    -fx-border-width: 3px;*/ 
+    -fx-opacity:0.9;
+    -fx-font-size: 24px;
+}
+
+#giocaButton:hover {
+    -fx-background-color: #4682B4;
+    -fx-opacity:0.9;
+}
+
+#giocaButton:pressed {
+    -fx-background-color: #1c4a6e;
+    -fx-opacity:0.9;
+}
+
+#sfondo2 {
+	-fx-background-image: url('paesaggio3.jpg');
+	-fx-background-size: cover;
+}
+

@@ -1,0 +1,64 @@
+/* Stile generico per i bottoni */
+.button {
+    -fx-padding: 10px 20px;
+    -fx-font-size: 18px;
+    -fx-background-color: #3498db;
+    -fx-text-fill: white;
+    -fx-border-color: transparent;
+    -fx-border-radius: 5px;
+    -fx-opacity:0.9;
+}
+
+.button:hover {
+    -fx-background-color: #4682B4; /*#2980b9;*/
+    -fx-opacity:0.9;
+}
+
+.button:pressed {
+    -fx-background-color: #1c4a6e;
+    -fx-opacity:0.9;
+}
+
+/* Stile specifico per il backButton */
+#backButton {
+    -fx-background-color: #e74c3c;
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-pref-width: 105px;
+    -fx-pref-height:42px;
+}
+
+#backButton:hover {
+    -fx-background-color: #c0392b;
+}
+
+#backButton:pressed {
+    -fx-background-color: #96281b;
+}
+
+/* Stile per le etichette generiche */
+.label {
+    -fx-font-size: 36px;
+    -fx-font-family: "Century Gothic", sans-serif;
+    -fx-opacity: 0.9;
+}
+
+/* Stile specifico per le etichette con l'ID "testo" */
+#testo {
+    -fx-font-size: 20px;
+    -fx-font-family: "Century Gothic", sans-serif;
+    -fx-opacity: 0.8; /* Opaco */
+}
+
+/* Stile per il HBox */
+.hbox {
+    -fx-background-color: rgba(255, 255, 255, 0.7); /* Bianco opaco */
+    -fx-padding: 10px; /* Padding per spaziatura interna */
+    -fx-opacity:0.8;
+}
+
+#sfondo {
+	-fx-background-image: url('paesaggio2.jpg');
+	-fx-background-size: cover;
+}
+

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="830.0" prefWidth="1400.0" stylesheets="@../CSSStyleSheets/Stile-Scena-Partita.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.CONTROLLER.ControllerPartita">
+   <children>
+      <Pane fx:id="campoCorrente" layoutX="387.0" layoutY="235.0" prefHeight="284.0" prefWidth="601.0">
+         <children>
+            <ImageView fx:id="pgCorrente1" fitHeight="255.0" fitWidth="148.0" layoutX="14.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="pgCorrente2" fitHeight="255.0" fitWidth="148.0" layoutX="227.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="pgCorrente3" fitHeight="255.0" fitWidth="148.0" layoutX="426.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true" />
+            <Pane fx:id="popUp" layoutX="186.0" layoutY="-16.0" prefHeight="377.0" prefWidth="308.0" visible="false">
+               <children>
+                  <Label layoutX="14.0" layoutY="14.0" text="ATT:">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="14.0" layoutY="55.0" text="PS:">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="att" layoutX="69.0" layoutY="15.0" prefHeight="18.0" prefWidth="63.0">
+                     <font>
+                        <Font name="Century Gothic" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="ps" layoutX="69.0" layoutY="56.0" prefHeight="18.0" prefWidth="63.0">
+                     <font>
+                        <Font name="Century Gothic" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="14.0" layoutY="116.0" text="ATT ATTUALE:">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="14.0" layoutY="154.0" text="PS ATTUALI:">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="attAttuale" layoutX="115.0" layoutY="117.0" prefHeight="18.0" prefWidth="63.0">
+                     <font>
+                        <Font name="Century Gothic" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="psAttuali" layoutX="101.0" layoutY="155.0" prefHeight="18.0" prefWidth="63.0">
+                     <font>
+                        <Font name="Century Gothic" size="14.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+      <Label fx:id="labelTurni" alignment="CENTER" layoutX="360.0" layoutY="33.0" prefHeight="42.0" prefWidth="680.0" textFill="WHITE" AnchorPane.leftAnchor="360.0">
+         <font>
+            <Font name="Century Gothic" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelVittoria" alignment="CENTER" layoutX="360.0" layoutY="33.0" prefHeight="42.0" prefWidth="680.0" textAlignment="CENTER" textFill="WHITE" AnchorPane.leftAnchor="360.0" AnchorPane.topAnchor="33.0">
+         <font>
+            <Font name="Century Gothic Bold" size="24.0" />
+         </font>
+      </Label>
+      <Pane fx:id="campoTotale" layoutX="22.0" layoutY="14.0" prefHeight="686.0" prefWidth="1232.0" style="-fx-background-color: #F5F5DC;" visible="false" AnchorPane.bottomAnchor="125.0" AnchorPane.leftAnchor="22.0" AnchorPane.rightAnchor="296.0" AnchorPane.topAnchor="14.0">
+         <children>
+            <Button layoutX="12.0" layoutY="11.0" mnemonicParsing="false" onAction="#visualizzazioneRistretta" prefHeight="33.0" prefWidth="56.0" text="X" />
+         </children>
+      </Pane>
+      <Pane fx:id="campoCarteGiocabili" layoutX="398.0" layoutY="673.0" prefHeight="248.0" prefWidth="602.0" AnchorPane.topAnchor="673.0" />
+      <ImageView fx:id="cartaGiocabileZoom" fitHeight="284.0" fitWidth="161.0" layoutX="1000.0" layoutY="494.0" pickOnBounds="true" preserveRatio="true" />
+      <Text fx:id="comunicazioneEffetto" fill="WHITE" layoutX="1251.0" layoutY="736.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="259.2000732421875" AnchorPane.rightAnchor="39.7999267578125">
+         <font>
+            <Font name="Century Gothic Bold" size="14.0" />
+         </font>
+      </Text>
+      <ImageView fx:id="cartaTerreno" fitHeight="284.0" fitWidth="162.0" layoutX="76.0" layoutY="223.0" pickOnBounds="true" preserveRatio="true" />
+      <VBox layoutX="1130.0" layoutY="150.0" prefHeight="558.0" prefWidth="251.0">
+         <children>
+            <ImageView fx:id="mazzo" fitHeight="262.0" fitWidth="150.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Carte/Altro/DorsoCarta.jpg" />
+               </image>
+               <VBox.margin>
+                  <Insets left="50.0" />
+               </VBox.margin>
+            </ImageView>
+            <Button mnemonicParsing="false" onAction="#visualizzazioneCompleta" prefHeight="40.0" prefWidth="118.0" text="Vedi campo">
+               <font>
+                  <Font name="Century Gothic" size="12.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="66.0" top="50.0" />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="bottoneIncrementa" mnemonicParsing="false" onAction="#passaTurno" prefHeight="40.0" prefWidth="118.0" text="Passa il turno">
+               <font>
+                  <Font name="Century Gothic" size="12.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="66.0" top="40.0" />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="bottoneAttacco" mnemonicParsing="false" onAction="#attaccoCheck" prefHeight="40.0" prefWidth="118.0" text="Attacco">
+               <VBox.margin>
+                  <Insets left="66.0" top="40.0" />
+               </VBox.margin>
+            </Button>
+         </children>
+      </VBox>
+      <Button fx:id="bottoneSalvataggio" layoutX="24.0" layoutY="34.0" mnemonicParsing="false" onAction="#salvaPartita" prefHeight="40.0" prefWidth="118.0" text="Salva partita" />
+      <Button fx:id="bottoneTabellone" layoutX="1301.0" layoutY="710.0" mnemonicParsing="false" onAction="#tornaAlTabellone" prefHeight="42.0" prefWidth="162.0" text="Torna al tabellone" visible="false" />
+      <Button fx:id="bottoneSalvataggio2" layoutX="26.0" layoutY="34.0" mnemonicParsing="false" onAction="#salvaTorneo" prefHeight="40.0" prefWidth="118.0" text="Salva torneo" visible="false" />
+      <Pane fx:id="contenitoreImprevisto" layoutX="25.0" layoutY="127.0" prefHeight="367.0" prefWidth="225.0">
+         <children>
+            <ImageView fx:id="imgImprevisto" fitHeight="284.0" fitWidth="162.0" layoutX="32.0" layoutY="42.0" pickOnBounds="true" preserveRatio="true" />
+         </children>
+      </Pane>
+      <VBox fx:id="vboxTimeline" alignment="CENTER" layoutX="-1.0" layoutY="107.0" maxHeight="691.0" maxWidth="60.0" minHeight="396.0" minWidth="60.0" onMouseEntered="#openTimelineMenu" onMouseExited="#closeTimelineMenu" prefHeight="691.0" prefWidth="60.0" spacing="40.0" style="-fx-background-color: white;">
+         <children>
+            <Text fx:id="time7" fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="260.4000244140625" VBox.vgrow="ALWAYS" />
+            <Text fx:id="time6" fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="261.20001220703125" VBox.vgrow="ALWAYS" />
+            <Text fx:id="time5" fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="259.60003662109375" VBox.vgrow="ALWAYS" />
+            <Text fx:id="time4" fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="260.4000244140625" VBox.vgrow="ALWAYS" />
+            <Text fx:id="time3" fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="260.4000244140625" VBox.vgrow="ALWAYS" />
+            <Text fx:id="time2" fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="261.20001220703125" VBox.vgrow="ALWAYS" />
+            <Text fx:id="time1" fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="259.59997863769536" VBox.vgrow="ALWAYS" />
+         </children>
+      </VBox>
+      <Text fx:id="pesca" fill="WHITE" layoutX="1143.0" layoutY="102.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="225.60000000000014">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+      <Button fx:id="quitButton" layoutX="1355.0" mnemonicParsing="false" onAction="#quitta" prefHeight="40.0" prefWidth="56.0" text="X" />
+   </children>
+</AnchorPane>

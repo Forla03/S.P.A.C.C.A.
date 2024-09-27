@@ -1,0 +1,72 @@
+.button {
+    -fx-padding: 10px 20px;
+    -fx-background-color: #3498db;
+    -fx-text-fill: white;
+    -fx-border-color: transparent;
+    -fx-border-radius: 5px;
+    -fx-opacity:0.9;
+}
+
+.button:hover {
+    -fx-background-color: #4682B4;
+    -fx-opacity:0.9;
+}
+
+.button:pressed {
+    -fx-background-color: #1c4a6e;
+    -fx-opacity:0.9;
+}
+
+#salvaTorneo {
+    -fx-background-color: #1c4a6e;
+    -fx-opacity:0.9;
+    -fx-padding: 10px 20px;
+    -fx-text-fill: white;
+    -fx-border-color: transparent;
+    -fx-border-radius: 5px;
+    -fx-pref-height: 40px;
+}
+
+#salvaTorneo :hover {
+    -fx-background-color: #4682B4;
+    -fx-opacity:0.9;
+}
+
+#salvaTorneo:pressed {
+    -fx-background-color: #3498db;
+    -fx-opacity:0.9;
+}
+
+.pane {
+    -fx-background-color: azure;
+    -fx-border-color: blue;
+    -fx-border-width: 2;
+}
+
+#titoloTorneo {	
+    -fx-font-family: "Century Gothic";   
+    -fx-font-size: 36px;
+    -fx-opacity: 0.8;
+}
+
+#root {
+	-fx-background-image: url('sfondopartita.jpg');
+	-fx-background-size: cover;
+}
+
+#riquadro {
+    -fx-background-color: rgba(255, 255, 255, 0.7); 
+    -fx-padding: 10px; 
+    -fx-opacity:0.8;
+}
+
+.label {
+    -fx-font-family: "Century Gothic";   
+    -fx-font-size: 24px;
+}
+
+#labelVincitore {
+    -fx-font-family: "Century Gothic";   
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+}

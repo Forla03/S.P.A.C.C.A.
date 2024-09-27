@@ -1,0 +1,48 @@
+/* Stile specifico per il backButton */
+#backButton {
+    -fx-background-color: #e74c3c;
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-pref-width: 105px;
+    -fx-pref-height:42px;
+}
+
+#backButton:hover {
+    -fx-background-color: #c0392b;
+}
+
+#backButton:pressed {
+    -fx-background-color: #96281b;
+}
+
+/* Stile per le etichette generiche */
+.label {
+    -fx-font-size: 24px;
+    -fx-font-family: "Century Gothic", sans-serif;
+    /*-fx-font-weight: bold;*/
+}
+
+/* Stile generico per i bottoni */
+.button {
+    -fx-padding: 10px 20px;
+    -fx-background-color: #3498db;
+    -fx-text-fill: white;
+    -fx-border-color: transparent;
+    -fx-border-radius: 5px;
+    -fx-opacity:0.9;
+}
+
+.button:hover {
+    -fx-background-color: #4682B4;
+    -fx-opacity:0.9;
+}
+
+.button:pressed {
+    -fx-background-color: #1c4a6e;
+    -fx-opacity:0.9;
+}
+
+#sfondoScelta {
+	-fx-background-image: url('paesaggio2.jpg');
+	-fx-background-size: cover;
+}

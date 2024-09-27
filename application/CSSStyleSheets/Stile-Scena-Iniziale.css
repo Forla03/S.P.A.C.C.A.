@@ -1,0 +1,65 @@
+#barraProgresso {
+	-fx-color: #8EA4D2;
+	-fx-opacity:0.3;
+	-fx-stroke:transparent;
+	-fx-background-color:transparent;
+}
+
+#barraProgresso.track{
+	-fx-color: transparent;
+	-fx-background-color: transparent;
+}
+
+#bottonePlay {
+	-fx-background-color: rgba(255, 255, 255, 0);
+    -fx-border-color: rgba(0, 0, 0, 0);
+}
+
+#bottonePlay:hover {
+	-fx-stroke:#000000;
+	-fx-background-color: rgba(255, 255, 255, 0.1);
+}
+
+#titolo {
+	/*-fx-fill: linear-gradient(center, black, lightgray);*/
+	-fx-font-weight: bold;
+	-fx-font-size: 82px;
+	-fx-font-family: Arial;
+	-fx-fill: #2F4F4F;
+}
+
+/*#contornoTitolo {
+	-fx-background-color: rgba(255, 255, 255, 0.2);
+	-fx-border-color: #ccc;
+	-fx-border-width: 2px;
+	-fx-border-radius: 10px;
+	-fx-background-radius: 6px;
+	-fx-padding: 10px;
+}*/
+
+#sfondo {
+	-fx-background-image: url('paesaggio4.jpg');
+	-fx-background-size: cover;
+}
+
+#bottonePiccolo {
+	-fx-background-color: rgba(255, 255, 255, 0.8);
+	-fx-color: #fff;
+	-fx-border-radius: 5px;
+	-fx-padding: 10px 20px;
+	-fx-font-family: Century Gothic;
+	-fx-font-size: 18px;
+    /*-fx-font-weight: bold;*/
+}
+
+#bottonePiccolo:hover {
+	-fx-background-color: #4682B4;
+	-fx-opacity:0.8;
+	-fx-padding: 10px 20px;
+	/*-fx-color: #fff;*/
+}
+
+#bottonePiccolo:pressed {
+    -fx-background-color: #1c4a6e;
+    -fx-opacity:0.8;
+}
